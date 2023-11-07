@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes action_bread_1 {
+
+  0%   {left: 3%; top: 30%; width: 380px; height: 365px;}
+  2%  {left: 4%; top: 33%; width: 270px; height: 255px;}
+  4%  {left: 5%; top: 36%; width: 190px; height: 175px;}
+  6%  {left: 6%; top: 39%; width: 150px; height: 135px;}
+  8% {left: 7%; top: 42%; width: 130px; height: 115px;}
+  
+  54%  {left: 7%; top: 43%; width: 130px; height: 114px; transform: scale(1.1) rotate(45deg) skew(30deg, -10deg);}
+  56% {left: 7%; top: 43%; width: 130px; height: 115px; transform: scale(1.1) rotate(45deg) skew(31deg, -9.9deg);}
+  58% {left: 7%; top: 43%; width: 130px; height: 116px; transform: scale(1.1) rotate(45deg) skew(31deg, -9.8deg);}
+  60% {left: 7%; top: 43%; width: 130px; height: 118px; transform: scale(1.1) rotate(45deg) skew(30deg, -9.7deg);}
+  62% {left: 7%; top: 43%; width: 130px; height: 120px; transform: scale(1.1) rotate(45deg) skew(30deg, -9.6deg);}
+  64% {left: 7%; top: 43%; width: 130px; height: 122px; transform: scale(1.1) rotate(45deg) skew(29deg, -9.5deg);}
+  66% {left: 7%; top: 43%; width: 130px; height: 124px; transform: scale(1.1) rotate(45deg) skew(29deg, -9.4deg);}
+  68% {left: 7%; top: 43%; width: 130px; height: 125px; transform: scale(1.1) rotate(45deg) skew(28deg, -9.3deg);}
+  70% {left: 7%; top: 43%; width: 130px; height: 127px; transform: scale(1.1) rotate(45deg) skew(28deg, -9.1deg);}
+  76% {left: 7%; top: 43%; width: 130px; height: 128px; transform: scale(1.1) rotate(45deg) skew(29deg, -9deg);}
+  79% {left: 7%; top: 43%; width: 130px; height: 129px; transform: scale(1.1) rotate(45deg) skew(30deg, -8.9deg);}
+  82% {left: 7%; top: 43%; width: 130px; height: 130px; transform: scale(1.1) rotate(45deg) skew(31deg, -8.8deg);}
+  85% {left: 7%; top: 43%; width: 130px; height: 131px; transform: scale(1.1) rotate(45deg) skew(32deg, -8.7deg);}
+  88% {left: 7%; top: 43%; width: 130px; height: 132px; transform: scale(1.1) rotate(45deg) skew(31deg, -8.6deg);}
+  91% {left: 7%; top: 43%; width: 130px; height: 133px; transform: scale(1.1) rotate(45deg) skew(31deg, -8.5deg);}
+  94% {left: 7%; top: 43%; width: 130px; height: 134px; transform: scale(1.1) rotate(45deg) skew(30deg, -8.4deg);}
+  97% {left: 7%; top: 43%; width: 130px; height: 135px; transform: scale(1.1) rotate(45deg) skew(29deg, -8.3deg);}  
+  100% {left: 7%; top: 43%; width: 130px; height: 136px; transform: scale(1.1) rotate(45deg) skew(30deg, -8.2deg);}
+}
+
+#img_bread_1 {
+  position: absolute;
+  left: 7%; top: 43%; width: 130px; height: 130px; transform: scale(1.1) rotate(45deg) skew(30deg, -8deg);
+}
+
+
+@keyframes action_bread_2 {
+  0%   {left: 22.5%; top: 22%; width: 400px; height: 380px; transform: skew(-5deg, 10deg);}
+  2%  {left: 23.5%; top: 25%; width: 290px; height: 270px; transform: skew(-5deg, 11deg);}
+  4%  {left: 24.5%; top: 28%; width: 210px; height: 190px; transform: skew(-5deg, 11deg);}
+  6%  {left: 25.5%; top: 31%; width: 170px; height: 150px; transform: skew(-5deg, 12deg);}
+  8% {left: 26.5%; top: 34%; width: 150px; height: 130px; transform: skew(-5deg, 12deg);}
+  
+  54%  {left: 26.5%; top: 35%; width: 150px; height: 129px; transform: skew(-5deg, 11deg);}
+  56% {left: 26.5%; top: 35%; width: 150px; height: 132px; transform: skew(-5deg, 11deg);}
+  58% {left: 26.5%; top: 35%; width: 150px; height: 135px; transform: skew(-5deg, 10deg);}
+  60% {left: 26.5%; top: 35%; width: 150px; height: 138px; transform: skew(-5deg, 9deg);}
+  62% {left: 26.5%; top: 35%; width: 150px; height: 141px; transform: skew(-5deg, 9deg);}
+  64% {left: 26.5%; top: 35%; width: 150px; height: 144px; transform: skew(-5deg, 8deg);}
+  66% {left: 26.5%; top: 35%; width: 150px; height: 147px; transform: skew(-5deg, 8deg);}
+  68% {left: 26.5%; top: 35%; width: 150px; height: 150px; transform: skew(-5deg, 9deg);}
+  70% {left: 26.5%; top: 35%; width: 150px; height: 153px; transform: skew(-5deg, 9deg);}
+  76% {left: 26.5%; top: 35.1%; width: 150px; height: 156px; transform: skew(-5deg, 10deg);}
+  79% {left: 26.5%; top: 35.2%; width: 150px; height: 159px; transform: skew(-5deg, 11deg);}
+  82% {left: 26.5%; top: 35.3%; width: 150px; height: 162px; transform: skew(-5deg, 12deg);}
+  85% {left: 26.5%; top: 35.4%; width: 150px; height: 165px; transform: skew(-5deg, 11deg);}
+  88% {left: 26.5%; top: 35.5%; width: 150px; height: 168px; transform: skew(-5deg, 10deg);}
+  91% {left: 26.5%; top: 35.6%; width: 150px; height: 171px; transform: skew(-5deg, 10deg);}
+  94% {left: 26.5%; top: 35.7%; width: 150px; height: 174px; transform: skew(-5deg, 9deg);}
+  97% {left: 26.5%; top: 35.8%; width: 150px; height: 177px; transform: skew(-5deg, 8deg);}
+  100% {left: 26.5%; top: 35.9%; width: 150px; height: 180px; transform: skew(-5deg, 9deg);}
+}
+
+#img_bread_2 {
+  position: absolute;
+  left: 26.5%; top: 35.9%; width: 150px; height: 180px; transform: skew(-5deg, 10deg);
+}
+
+
+@keyframes action_bread_3 {
+  0%   {left: 52%; top: 24%; width: 300px; height: 250px; transform: skew(-2deg, -10deg);}
+  2%  {left: 50%; top: 30%; width: 230px; height: 200px; transform: skew(-2deg, -11deg);}
+  4%  {left: 48%; top: 35%; width: 180px; height: 160px; transform: skew(-2deg, -11deg);}
+  6%  {left: 46%; top: 39%; width: 150px; height: 140px; transform: skew(-2deg, -12deg);}
+  8% {left: 44%; top: 41%; width: 140px; height: 130px; transform: skew(-2deg, -12deg);}
+  
+  54%  {left: 44%; top: 41%; width: 140px; height: 129px; transform: skew(-2deg, -11deg);}
+  56% {left: 44%; top: 41%; width: 140px; height: 131px; transform: skew(-2deg, -10deg);}
+  58% {left: 44%; top: 41%; width: 140px; height: 133px; transform: skew(-2deg, -10deg);}
+  60% {left: 44%; top: 41%; width: 140px; height: 136px; transform: skew(-2deg, -9deg);}
+  62% {left: 44%; top: 41%; width: 140px; height: 138px; transform: skew(-2deg, -8deg);}
+  64% {left: 44%; top: 41%; width: 140px; height: 140px; transform: skew(-2deg, -8deg);}
+  66% {left: 44%; top: 41%; width: 140px; height: 142px; transform: skew(-2deg, -9deg);}
+  68% {left: 44%; top: 41%; width: 140px; height: 144px; transform: skew(-2deg, -9deg);}
+  70% {left: 44%; top: 41%; width: 140px; height: 146px; transform: skew(-2deg, -10deg);}
+  76% {left: 44%; top: 41.1%; width: 140px; height: 148px; transform: skew(-2deg, -10deg);}
+  79% {left: 44%; top: 41.2%; width: 140px; height: 150px; transform: skew(-2deg, -11deg);}
+  82% {left: 44%; top: 41.3%; width: 140px; height: 152px; transform: skew(-2deg, -12deg);}
+  85% {left: 44%; top: 41.4%; width: 140px; height: 154px; transform: skew(-2deg, -12deg);}
+  88% {left: 44%; top: 41.5%; width: 140px; height: 156px; transform: skew(-2deg, -11deg);}
+  91% {left: 44%; top: 41.6%; width: 140px; height: 158px; transform: skew(-2deg, -11deg);}
+  94% {left: 44%; top: 41.7%; width: 140px; height: 159px; transform: skew(-2deg, -10deg);}
+  97% {left: 44%; top: 41.8%; width: 140px; height: 160px; transform: skew(-2deg, -10deg);}
+  100% {left: 44%; top: 41.9%; width: 140px; height: 160px; transform: skew(-2deg, -9deg);}
+}
+
+#img_bread_3 {
+  position: absolute;
+  left: 44%; top: 41.9%; width: 140px; height: 160px; transform: skew(-2deg, -10deg);
+}
+
+
+
+@keyframes action_bread_4 {
+  
+  0%   {left: 63%; top: 52%; width: 230px; height: 210px; transform: skew(-11deg, -10deg);}
+  3%  {left: 61%; top: 48%; width: 200px; height: 180px; transform: skew(-11deg, -10deg);}
+  6%  {left: 63%; top: 46%; width: 170px; height: 150px; transform: skew(-12deg, -10deg);}
+  9%  {left: 65%; top: 44%; width: 145px; height: 125px; transform: skew(-11deg, -10deg);}
+  12% {left: 67%; top: 41%; width: 130px; height: 110px; transform: skew(-10deg, -10deg);}
+  
+  42%  {left: 67%; top: 41%; width: 130px; height: 110px; transform: skew(-10deg, -10deg);}
+  46% {left: 67%; top: 41%; width: 130px; height: 112px; transform: skew(-9deg, -10deg);}
+  50% {left: 67%; top: 41%; width: 130px; height: 114px; transform: skew(-9deg, -10deg);}
+  54% {left: 67%; top: 41%; width: 130px; height: 116px; transform: skew(-8deg, -10deg);}
+  58% {left: 67%; top: 41%; width: 130px; height: 118px; transform: skew(-8deg, -10deg);}
+  62% {left: 67%; top: 41%; width: 130px; height: 120px; transform: skew(-7deg, -10deg);}
+  66% {left: 67%; top: 41%; width: 130px; height: 122px; transform: skew(-8deg, -10deg);}
+  70% {left: 67%; top: 41%; width: 130px; height: 124px; transform: skew(-8deg, -10deg);}
+  73% {left: 67%; top: 41%; width: 130px; height: 126px; transform: skew(-9deg, -10deg);}
+  76% {left: 67%; top: 41.1%; width: 130px; height: 128px; transform: skew(-9deg, -10deg);}
+  79% {left: 67%; top: 41.1%; width: 130px; height: 130px; transform: skew(-10deg, -10deg);}
+  82% {left: 67%; top: 41.2%; width: 130px; height: 132px; transform: skew(-10deg, -10deg);}
+  85% {left: 67%; top: 41.2%; width: 130px; height: 134px; transform: skew(-11deg, -10deg);}
+  88% {left: 67%; top: 41.3%; width: 130px; height: 136px; transform: skew(-10deg, -10deg);}
+  91% {left: 67%; top: 41.4%; width: 130px; height: 137px; transform: skew(-9deg, -10deg);}
+  94% {left: 67%; top: 41.4%; width: 130px; height: 138px; transform: skew(-8deg, -10deg);}
+  97% {left: 67%; top: 41.5%; width: 130px; height: 139px; transform: skew(-9deg, -10deg);}
+  100% {left: 67%; top: 41.5%; width: 130px; height: 140px; transform: skew(-10deg, -10deg);}
+}
+
+#img_bread_4 {
+  position: absolute;
+  left: 67%; top: 41.5%; width: 130px; height: 140px; transform: skew(-10deg, -10deg);
+}
+
+
+
+@keyframes action_bread_5 {
+  0%   {left: 84%; top: 50%; width: 240px; height: 250px; transform: skew(-11deg, 10deg);}
+  2%  {left: 84%; top: 35%; width: 200px; height: 210px; transform: skew(-11deg, 10deg);}
+  4%  {left: 83%; top: 35%; width: 170px; height: 180px; transform: skew(-12deg, 10deg);}
+  6%  {left: 84%; top: 35%; width: 150px; height: 160px; transform: skew(-11deg, 10deg);}
+  8% {left: 84.5%; top: 35%; width: 130px; height: 140px; transform: skew(-10deg, 10deg);}
+  
+  42%  {left: 84.5%; top: 35%; width: 130px; height: 140px; transform: skew(-10deg, 10deg);}
+  46% {left: 84.5%; top: 35%; width: 130px; height: 142px; transform: skew(-9deg, 10deg);}
+  50% {left: 84.5%; top: 35%; width: 130px; height: 144px; transform: skew(-9deg, 10deg);}
+  54% {left: 84.5%; top: 35%; width: 130px; height: 146px; transform: skew(-8deg, 10deg);}
+  58% {left: 84.5%; top: 35%; width: 130px; height: 148x; transform: skew(-8deg, 10deg);}
+  62% {left: 84.5%; top: 35%; width: 130px; height: 150px; transform: skew(-7deg, 10deg);}
+  66% {left: 84.5%; top: 35%; width: 130px; height: 152px; transform: skew(-8deg, 10deg);}
+  70% {left: 84.5%; top: 35%; width: 130px; height: 154px; transform: skew(-8deg, 10deg);}
+  73% {left: 84.5%; top: 35%; width: 130px; height: 156px; transform: skew(-9deg, 10deg);}
+  76% {left: 84.5%; top: 35.1%; width: 130px; height: 158px; transform: skew(-9deg, 10deg);}
+  79% {left: 84.5%; top: 35.1%; width: 130px; height: 160px; transform: skew(-10deg, 10deg);}
+  82% {left: 84.5%; top: 35.2%; width: 130px; height: 162px; transform: skew(-10deg, 10deg);}
+  85% {left: 84.5%; top: 35.2%; width: 130px; height: 164px; transform: skew(-11deg, 10deg);}
+  88% {left: 84.5%; top: 35.3%; width: 130px; height: 166px; transform: skew(-10deg, 10deg);}
+  91% {left: 84.5%; top: 35.4%; width: 130px; height: 168px; transform: skew(-9deg, 10deg);}
+  94% {left: 84.5%; top: 35.4%; width: 130px; height: 170px; transform: skew(-8deg, 10deg);}
+  97% {left: 84.5%; top: 35.5%; width: 130px; height: 172px; transform: skew(-9deg, 10deg);}
+  100% {left: 84.5%; top: 35.5%; width: 130px; height: 174px; transform: skew(-10deg, 10deg);}
+}
+
+#img_bread_5 {
+  position: absolute;
+  left: 84.5%; top: 35.5%; width: 130px; height: 167px; transform: skew(-10deg, 10deg);
+}
